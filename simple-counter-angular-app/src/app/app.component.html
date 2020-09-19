@@ -1,0 +1,8 @@
+<div>
+  <header>{{title}}</header>
+  <app-counter [count]="count" 
+  (incrementCountEvent)="updateCounterUp()" 
+  (decrementCountEvent)="updateCounterDown()"
+  (resetCounterEvent)="resetCounterToZero()"
+  ></app-counter>
+</div>
